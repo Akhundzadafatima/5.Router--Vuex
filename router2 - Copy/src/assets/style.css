@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  margin-top: 30px;
+}
+h1 {
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.534);
+}
+.containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#customers td,
+#customers th {
+  text-align: center;
+  /* border: 1px solid #ddd;
+    border-top: none; */
+  border-bottom: 1px solid #d3d3d3;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  /* background-color: #04AA6D;
+    color: white; */
+  border-bottom: 3px solid black;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.deleteBtn {
+  background-color: red;
+  width: 65px;
+  height: 30px;
+}
+.deleteBtn:hover {
+  background-color: rgb(183, 0, 0);
+  width: 65px;
+  height: 30px;
+}
+.addBtn {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(47, 47, 255);
+}
+.addBtn:hover {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(0, 0, 94);
+}
+.containerPerson {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid purple; */
+  /* border: 1px solid red; */
+}
+.total {
+  width: 40%;
+  padding: 80px 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.461);
+  gap: 30px;
+}
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: rgba(0, 0, 0, 0.628);
+  font-size: 24px;
+}
+input {
+  font-size: 16px;
+  height: 45px;
+  /* padding: 0 10px; */
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.461);
+}
+.detailInp {
+  padding: 0 10px;
+  height: 135px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3 0px;
+  gap: 10px;
+}
+.cancelBtn {
+  font-size: 18px;
+  padding: 5px;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.461);
+}
+.cancelBtn:hover {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+.saveBtn {
+  font-size: 18px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(47, 47, 255);
+  border: none;
+}
+.saveBtn:hover {
+  background-color: rgb(0, 0, 94);
+}
